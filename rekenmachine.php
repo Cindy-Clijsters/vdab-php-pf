@@ -29,5 +29,9 @@ class Rekenmachine {
     <h1>
         <?php print($reken->getSom(65, 8)); ?>
     </h1>
+    
+    <h1>
+        <?php echo $reken->getSom(34, 55); ?>
+    </h1>
 </body>
 </html>
