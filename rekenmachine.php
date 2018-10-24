@@ -11,7 +11,7 @@ class Rekenmachine {
     }   
     
     /**
-     * Multiply 2 number
+     * Multiply 2 numbers
      * 
      * @param float $number1
      * @param float $number2
@@ -36,6 +36,11 @@ class Rekenmachine {
 <head>
     <meta charset=utf-8>
     <title>Rekenmachine</title>
+    <style type="text/css">
+        h1 {
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <h1>
