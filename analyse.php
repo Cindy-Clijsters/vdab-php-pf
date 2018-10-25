@@ -15,8 +15,10 @@ class Oefening
         if (is_numeric($number1) && is_numeric($number2)) {
             if ($number1 > $number2) {
                 $result = "Het eerste getal is groter dan het tweede";
+            } elseif ($number1 < $number2) {
+                $result = "Het eerste getal is kleiner dan het tweede";
             } else {
-                $result = "Het eerste getal is niet groter dan het tweede";
+                $result = "Het eerste getal is gelijk aan het tweede";
             }
         } else {
             $result = "De beide getallen moeten een numerieke waarde bevatten";
